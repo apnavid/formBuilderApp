@@ -9,7 +9,7 @@ import Multiline from './Multiline';
 import Radiobutton from './Radiobutton';
 import CheckboxOption from './CheckboxOption';
 import { useDispatch } from 'react-redux';
-import { formName, options, formDetails } from '../store/Slice';
+import { formName, formDetails } from '../store/Slice';
 
 const style = {
     position: 'absolute',

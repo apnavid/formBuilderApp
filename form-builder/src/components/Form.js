@@ -3,7 +3,7 @@ import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import ModalForm from './Modal';
 import DisplayForm from './DisplayForm';
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 
 function Form() {
@@ -11,7 +11,6 @@ function Form() {
     const [questionAdded, setQuestionAdded] = useState(false);
     const formValues = useSelector((state) => state.form.forms)
 
-    const dispatch = useDispatch();
     const handleChange = (e) => {
         setInput(e.target.value);
     }
